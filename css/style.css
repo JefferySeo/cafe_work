@@ -44,7 +44,6 @@ a{
 }
 
 /* ############HEADER############# */
-/* ####### header top ######### */
 header{
     padding-top:10px;
 }
@@ -60,59 +59,57 @@ header{
     margin-left:25px;
 }
 .top-nav>li a,
-.top-nav>li a span .material-symbols-outlined{
+.top-nav>li a span.material-symbols-sharp{
     color:#999;
 }
 .top-nav>li a:hover,
-.top-nav>li a span .material-symbols-outlined:hover{
+.top-nav>li a span.material-symbols-sharp:hover{
     color:#2b2b2b;
 }
-.top-nav li:last-child{
+.top-nav>li:last-child{
     position:relative;
 }
 .top-nav>li:hover .list-view{
     display:block;
 }
 .list-view{
-    background: #fff;
-    border: 1px solid #999;
-    position: absolute;
-    z-index: 3;
+    background:#fff;
+    border:1px solid #ccc;
+    position:absolute;
+    z-index:3;
     right:0;
     top:45px;
     display:none;
 }
 .list-view::after{
     content:"";
-    display: block;
-    position: absolute;
+    display:block;
+    position:absolute;
     width:25px;
     height:25px;
-    background: url(../images/삐죽.png);
-    right:5px;
+    right:3px;
     top:-20px;
-    z-index: 4;
+    z-index:4;
+    background:url(../images/삐죽.png) no-repeat;
 }
 .icon-list{
-    border-bottom:1px solid #ccc;
-    padding: 15px 20px;
-    font-size: 13px;
-    border-bottom: 1px solid #dedede;
-    margin-bottom: 10px;
+    padding:15px 20px;
+    font-size:13px;
+    border-bottom:1px solid #dedede;
+    margin-bottom:10px;
 }
 .top-nav>li .icon-list a{
-    font-size:13px;
-    font-weight: 600;
-    color:#333;
+    font-weight:600;
+    color:#000;
 }
 .icon-list a:hover{
-    text-decoration: underline;
+    text-decoration:underline;
 }
 .icon-list img{
     height:35px;
 }
 .icon-list li:not(:last-child){
-    margin-right:40px;
+   margin-right:40px;
 }
 .map-list{
     margin:0px 20px 10px;
@@ -120,28 +117,47 @@ header{
 .map-list>li{
     width:25%;
     border-right:1px solid #dedede;
-    padding-left:5px;
+    padding-left:10px;
 }
 .map-list>li:last-child{
     border:none;
 }
 .map-list>li>a{
-    display: block;
-    font-size: 13px;
+    display:block;
+    font-size:13px;
     color:#2b2b2b;
     margin-top:10px;
     margin-bottom:10px;
 }
 a.all{
     display:block;
-    padding:10px;
-    background: #efefef;
+    padding:15px;
+    background:#efefef;
 }
+
 /* ####### header top ######### */
 
 /* ####### header main ######### */
-.container
+.sublogo img{
+    width:80px;
+    margin-left:25px;
+}
+.sub-list{
+    margin-left:30px;
+}
+.sub-list>a{
+    display: inline-block;
+    margin-right:20px;
+    font-size:20px;
 
+}
+.sub-list>a:last-child{
+    border-left:1px solid #dedede;
+    padding-left:20px;
+}
+.container>.search-tab{
+    
+}
 /* ####### header main ######### */
 
 
