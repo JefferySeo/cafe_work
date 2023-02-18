@@ -138,11 +138,15 @@ a.all{
 /* ####### header top ######### */
 
 /* ####### header main ######### */
+.sublogo{
+    width:10%;
+}
 .sublogo img{
     width:80px;
     margin-left:25px;
 }
 .sub-list{
+    width:70%;
     margin-left:30px;
 }
 .sub-list>a{
@@ -155,8 +159,9 @@ a.all{
     border-left:1px solid #dedede;
     padding-left:20px;
 }
-.container>.search-tab{
-    
+.search-tab{
+    width:20%;
+    text-align: right;
 }
 /* ####### header main ######### */
 
