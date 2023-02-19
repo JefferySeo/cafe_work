@@ -189,9 +189,13 @@ a.all{
     display:none;
     z-index: 5;
 }
-.search-sbox.sbox-view{
+.sbox-view>.search-sbox{
     display:block;
 }
+.sbox-view #arrow{
+    transform:rotate(180deg);
+}
+
 .search-sbox>a{
     display:block;
     padding:8px 10px;

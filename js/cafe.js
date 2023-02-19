@@ -1,5 +1,6 @@
 $(function(){
     $('.search-select').click(function(){
-        $('.search-sbox').toggleClass('sbox-view');
+        $('.search-tab').toggleClass('sbox-view');
+        
     });
 });  // jquery;
