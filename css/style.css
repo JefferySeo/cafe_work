@@ -42,11 +42,11 @@ a{
     text-decoration:none;
     color:#2b2b2b;
 }
+
 .d-block{
-    display: block;
+    display:block;
 }
 /* ############HEADER############# */
-/* ####### header top ######### */
 header{
     padding-top:10px;
 }
@@ -62,59 +62,57 @@ header{
     margin-left:25px;
 }
 .top-nav>li a,
-.top-nav>li a span .material-symbols-outlined{
+.top-nav>li a span.material-symbols-sharp{
     color:#999;
 }
 .top-nav>li a:hover,
-.top-nav>li a span .material-symbols-outlined:hover{
+.top-nav>li a span.material-symbols-sharp:hover{
     color:#2b2b2b;
 }
-.top-nav li:last-child{
+.top-nav>li:last-child{
     position:relative;
 }
 .top-nav>li:hover .list-view{
     display:block;
 }
 .list-view{
-    background: #fff;
-    border: 1px solid #999;
-    position: absolute;
-    z-index: 3;
+    background:#fff;
+    border:1px solid #ccc;
+    position:absolute;
+    z-index:3;
     right:0;
     top:45px;
     display:none;
 }
 .list-view::after{
     content:"";
-    display: block;
-    position: absolute;
+    display:block;
+    position:absolute;
     width:25px;
     height:25px;
-    background: url(../images/삐죽.png);
-    right:5px;
+    right:3px;
     top:-20px;
-    z-index: 4;
+    z-index:4;
+    background:url(../images/polig.png) no-repeat;
 }
 .icon-list{
-    border-bottom:1px solid #ccc;
-    padding: 15px 20px;
-    font-size: 13px;
-    border-bottom: 1px solid #dedede;
-    margin-bottom: 10px;
+    padding:15px 20px;
+    font-size:13px;
+    border-bottom:1px solid #dedede;
+    margin-bottom:10px;
 }
 .top-nav>li .icon-list a{
-    font-size:13px;
-    font-weight: 600;
-    color:#333;
+    font-weight:600;
+    color:#000;
 }
 .icon-list a:hover{
-    text-decoration: underline;
+    text-decoration:underline;
 }
 .icon-list img{
     height:35px;
 }
 .icon-list li:not(:last-child){
-    margin-right:40px;
+   margin-right:40px;
 }
 .map-list{
     margin:0px 20px 10px;
@@ -122,27 +120,25 @@ header{
 .map-list>li{
     width:25%;
     border-right:1px solid #dedede;
-    padding-left:5px;
+    padding-left:10px;
 }
 .map-list>li:last-child{
     border:none;
 }
 .map-list>li>a{
-    display: block;
-    font-size: 13px;
+    display:block;
+    font-size:13px;
     color:#2b2b2b;
     margin-top:10px;
     margin-bottom:10px;
 }
 a.all{
     display:block;
-    padding:10px;
-    background: #efefef;
+    padding:15px;
+    background:#efefef;
 }
-
-/* ####### header top ######### */
-
-/* ####### header main ######### */
+/* ############SECTION1########### */
+/* ############SECTION1########### */
 .logo{
     font-family: 'Tourney', cursive;
     color:#ff5656;
@@ -151,7 +147,7 @@ a.all{
     width:15%;
 }
 .nav{
-    width:60%;
+    width:65%
 }
 .nav>li{
     margin-right:30px;
@@ -198,64 +194,9 @@ a.all{
 .search-sbox>a{
     display:block;
 }
-.search-sbox>a:hover{
-    background:#fbe0e0;
-    text-decoration:underline;
-}
 
-#searchtext{
-    padding:5px;
-    margin-left:5px;
-    font-size:14px;
-    border-radius:5px;
-    border:none;
-}
-.btn-none{
-    border:none;
-    font-size:16px;
-    background:none;
-}
 /* ####### header main ######### */
 
-/* ####### hero ####### */
-.hero{
-    padding-top:50px;
-    padding-bottom:50px;
-    background: url(../images/banner.png) no-repeat right 270px;
-    background-size: 35%;
-}
-.hero h1{
-    font-size:18px;
-    font-weight:300;
-}
-.hero li a span.list{
-    font-size:46px;
-    color:#666;
-    font-weight:300;
-    max-width:800px;
-    overflow:hidden;
-    white-space:nowrap;
-    text-overflow:ellipsis;
-}
-.hero li a span{
-    display:inline-block;
-    font-size:14px;
-    max-width:80px;
-    overflow:hidden;
-    white-space:nowrap;
-    text-overflow:ellipsis;
-    vertical-align: top;
-}
-.hero li:hover a span.list,
-.hero li.active a span.list{
-    font-weight:700;
-    color:#333;
-}
 
-/******* best *******/
-.best{
-    padding-top:50px;
-    padding-bottom:50px;
-    background-color:#efefef;
-    border-top:4px solid #333;
-}
+
+/* ############SECTION1########### */
