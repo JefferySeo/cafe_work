@@ -70,30 +70,49 @@
     <!-- /header top -->
 
     <!-- header main-->
-    <div class="main-header container d-flex">
+    <div class="main-header container d-flex align-items-center">
         <a href="#" class="logo d-block">coffee</a>
         <ul class="nav list-style-none d-flex">
-            <li><a href="#">홈</a></li>
-            <li><a href="#">팬카페</a></li>
-            <li><a href="#">카페랭킹</a></li>
+            <li><a href="#">홈</li>
+            <li><a href="#">팬카페</a></li>   
+            <li><a href="#">카페랭킹</a></li> 
             <li><a href="#">내카페</a></li>
-            <li class="last"><a href="#">온라인 교실</a></li>
+            <li class="last"><a href="#">온라인 교실</a></li> 
         </ul>
-        <form id="searchform">
-            <div class="selectbox">
-                <a href="#" class="search-select">통합검색</a>
-                <div class="search-sbox">
-                    <a href="#">카페검색</a>
-                    <a href="#">통합검색</a>
-                    <a href="#">카페이름</a>
-                    <a href="#">카페글</a>
-                </div>
-            </div>
-            <input type="text" name="searchtext" id="searchtext" placeholder="검색어를 입력하세요.">
-            <button type="button" class="btn-none"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <form id="searchform" method="get">
+           <div class="selectbox">
+              <a href="#" class="search-select">카페검색</a>
+              <i class="fa-solid fa-angle-down"></i>
+              <div class="search-sbox">
+                 <a href="#">카페검색</a>
+                 <a href="#">통합검색</a>
+                 <a href="#">카페이름</a>
+                 <a href="#">카페글</a>
+              </div>
+           </div>
+           <input type="hidden" name="selectbox" id="selectbox">
+           <input type="text" name="searchtext" id="searchtext" placeholder="검색어를 입력하세요."/>
+           <button type="submit" class="btn-none"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
-    </div>
+
+    </div>    
     <!-- /header main-->
     </header>
+    <!-- hero page -->
+    <section class="hero container">
+        <!-- loop -->
+        <h1>이야기 하나 <strong>닌텐도는 그때도 맞고 지금도 맞다</strong> </h1>
+        <ul class="list-style-none">
+            <li><a href="#"><span class="list">닌텐도가 가진 의외의 특허들.jpg</span> <span class="cafe-name">훌리건 천국</span></a></li>
+            <li><a href="#"><span class="list">동물의 숲 환불사유라는데</span> <span class="cafe-name">수땡이의_동물의_숲</span></a></li>
+            <li><a href="#"><span class="list">지금와서 보니 닌텐도 스위치로 어떻게 이렇게 잘 뽑았나 싶은 게임</span> <span class="cafe-name">도탁스 (DOTAX)</span></a></li>
+            <li><a href="#"><span class="list">닌텐도스위치 스포츠 골프 플레이</span> <span class="cafe-name">수땡이의_동물의_숲</span></a></li>
+        </ul>
+        <!-- /loop -->
+    </section>
+    <!-- best 6 cafe -->
+    <section class="best">
+        
+    </section>
 </body>
 </html>
