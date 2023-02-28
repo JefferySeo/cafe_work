@@ -33,13 +33,20 @@ $(function(){
 
 
    // slide show
-   
-   $('.next').click(mySlide);
-   $('.prev').click(myBackSlide);
+   let autoSlide = setInterval(mySlide,10000);
+   $('.next').click(function(){
+      clearInterval(autoSlide);
+      mySlide();
+      autoSlide = setInterval(mySlide,10000);
+   });
+   $('.prev').click(function(){
+      clearInterval(autoSlide);
+      myBackSlide();
+      autoSlide = setInterval(mySlide,10000);
+   });
 });  //jquery
-const autoSlide = setInterval(mySlide,10000);
+
 function mySlide(){
-   clearInterval(autoSlide);
    const eq0 = $('.hero .new:eq(0)'); // 최초로 보이는 new
    const eq1 = $('.hero .new:eq(1)'); // 그 뒤에 숨어있는 new
    // animate를 통해서 두 번째 new에 zindex를 추가하여
@@ -56,7 +63,6 @@ function mySlide(){
    });
 }
    function myBackSlide(){
-   clearInterval(autoSlide);
    const eq0 = $('.hero .new:first-child'); 
    const eq4 = $('.hero .new:last-child'); 
    eq4.addClass('zindex').css('opacity',0).animate({

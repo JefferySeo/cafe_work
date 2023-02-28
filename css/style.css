@@ -288,7 +288,7 @@ span.prev i, span.next i{
     color:#666;
 }
 
-@keyframes identifier {
+/* @keyframes identifier {
     0%{
         top: 100px;
         opacity: 0;
@@ -297,7 +297,7 @@ span.prev i, span.next i{
         top:0;
         opacity: 1;
     }
-}
+} */
 
 /******* best *******/
 .best{
