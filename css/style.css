@@ -305,6 +305,7 @@ span.prev i, span.next i{
     padding-bottom:50px;
     background-color:#efefef;
     border-top:4px solid #333;
+    border-bottom:1px solid #dedede;
 }
 
 .best .col-4>a{
@@ -351,4 +352,249 @@ div.img{
 }
 .hash span:first-child{
     color:#ff5656;
+}
+
+/******** cafe-list ********/
+.cafe-list{
+    padding-top:50px;
+}
+.cafe-list h1{
+    font-size:1.2em;
+    font-weight: 700;
+}
+.clist{
+    list-style: none;
+    margin:0;
+    padding:0;
+    margin-top: 40px;
+}
+.clist>li{
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-bottom:1px solid #dedede;
+}
+.tbox img, .tbox h1{
+    margin-right: 20px;
+}
+.tbox p{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.cfe p:first-child{
+    width:100px;
+}
+p.dg{
+    text-align: right;
+    font-weight: 700;
+    color:#ff5656;
+}
+p.dg::before{
+    content:'댓글';
+    color:#333;
+    font-weight: 400;
+    margin-right: 8px;
+}
+.clist>li:hover{
+    background:#efefef;
+}
+.notice-list{
+    list-style: none;
+    padding:0;
+    font-size:14px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.notice-list li{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.notice-list li:first-child{
+    font-size:1.2em;
+    font-weight: 400;
+}
+.smallbanner{
+    position:relative;
+}
+/***** 물개사진 *****/
+.niniz{
+    width:345px;
+    height:200px;
+    position:absolute;
+    background-color: #4260aa;
+    border:1px solid #ededed;
+}
+.ninizface{
+    width:180px;
+    height:160px;
+    background-color: #fff;
+    border:3px solid #333;
+    position:absolute;
+    right: -36px;
+    bottom: -25px;
+    border-top-right-radius:50%;
+    border-top-left-radius:49%;
+    border-bottom-left-radius:45%;
+}
+.ninizleye{
+    position:absolute;
+    right:68px;
+    bottom:65px;
+    width:8px;
+    height:8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.ninizreye{
+    position:absolute;
+    right:36px;
+    bottom:66px;
+    width:8px;
+    height:8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.ninizmouse{
+    position:absolute;
+    right:40px;
+    bottom:35px;
+    background-color: #a8e6ff;
+    width:32px;
+    height:30px;
+    border-radius:50%;
+}
+.ninizlmouse{
+    position:absolute;
+    right:54px;
+    bottom:44px;
+    width:16px;
+    height:14px;
+    border-radius: 50%;
+    border-bottom:4px solid #333;
+    border-right: 4px solid #333;
+    transform:rotate(30deg);
+}
+.ninizrmouse{
+    position:absolute;
+    right:42px;
+    bottom:45px;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    border-bottom:4px solid #333;
+    border-right: 4px solid #333;
+    transform:rotate(45deg);
+}
+/***** 물개사진 *****/
+/***** 토끼사진 *****/
+.rabbit{
+    width:345px;
+    height:200px;
+    position:absolute;
+    background-color: #ED6D6E;
+}
+.rabbitface{
+    width:200px;
+    height:132px;
+    position:absolute;
+    right:-40px;
+    bottom:-10px;
+    border:4px solid #333;
+    background-color: #FFCCD3;
+    border-top-right-radius:50%;
+    border-top-left-radius:49%;
+    border-bottom-left-radius:45%;
+}
+.rabbitlear{
+    width:40px;
+    height:70px;
+    position:absolute;
+    right:70px;
+    top:20px;
+    border-top:4px solid #333;
+    border-right:4px solid #333;
+    border-left:4px solid #333;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 55%;
+    background-color: #FFCCD3;
+    transform:rotate(-25deg);
+}
+.rabbitrear{
+    width:40px;
+    height:70px;
+    position:absolute;
+    right:13px;
+    top:20px;
+    border-top:4px solid #333;
+    border-right:4px solid #333;
+    border-left:4px solid #333;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 55%;
+    background-color: #FFCCD3;
+    transform:rotate(20deg);
+}
+.rabbitleye{
+    position:absolute;
+    right:68px;
+    bottom:45px;
+    width:8px;
+    height:8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.rabbitreye{
+    position:absolute;
+    right:36px;
+    bottom:46px;
+    width:8px;
+    height:8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.rabbitlmouse{
+    position:absolute;
+    right:54px;
+    bottom:24px;
+    width:16px;
+    height:14px;
+    border-radius: 50%;
+    border-bottom:4px solid #333;
+    border-right: 4px solid #333;
+    transform:rotate(30deg);
+}
+.rabbitrmouse{
+    position:absolute;
+    right:42px;
+    bottom:25px;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    border-bottom:4px solid #333;
+    border-right: 4px solid #333;
+    transform:rotate(45deg);
+}
+.gong{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:78px;
+    top:87px;
+    background-color: #FFCCD3;
+}
+.gong2{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:23px;
+    top:87px;
+    background-color: #FFCCD3;
+}
+.textb{
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.textb h1{
+    color:#fff;
+    margin:0;
+    font-size: 1.25em;
 }
