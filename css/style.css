@@ -776,6 +776,9 @@ footer{
     margin-right:20px;
     position:relative;
 }
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
 .footer-nav li:not(:last-child)::after{
     content:"";
     width:2px;
