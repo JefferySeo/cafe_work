@@ -706,3 +706,44 @@ p.dg::before{
                 0 0 25px 0 rgba(0,0,0,0.07);
     cursor: pointer;
 }
+
+/****** category ******/
+.category{
+    padding-top:30px;
+}
+.category>h1{
+    font-size:23px;
+    font-weight: 300;
+}
+.category>h1::before{
+    content:'카테고리';
+    font-weight:700;
+    margin-right:5px;
+}
+.c-list{
+    font-size:35px;
+    display:inline-block;
+    margin-right:55px;
+    margin-bottom:18px;
+}
+.c-list>a{
+    margin-right:10px;
+    font-weight: 200;
+    position:relative;
+}
+.c-list>a:first-child{
+    font-weight: 700;
+}
+
+.c-list>a.und::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: 0.1px;
+    left: 1px;
+    background: #ED6D6E;
+    transform:translateX(0,100%);
+}
+

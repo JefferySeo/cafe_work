@@ -68,6 +68,11 @@ $(function(){
          console.log(error);
       }
    })
+
+   // 밑줄만들기
+   $('.c-list>a').hover(function(){
+      $(this).toggleClass('und');
+   })
 });  //jquery
 
 function mySlide(){
