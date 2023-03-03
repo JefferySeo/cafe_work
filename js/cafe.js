@@ -69,8 +69,19 @@ $(function(){
       }
    })
 
-   // 밑줄만들기
-   
+   $(window).on('scroll',function(){
+      if($(window).scrollTop()>1000){
+         $('.angletop').fadeIn();
+      }else{
+         $('.angletop').fadeOut();
+      }
+   });
+   $('.angletop').click(function(e){
+      e.preventDefault();
+      $('html,body').animate({
+         scrollTop:'0'
+      },300)
+   })
 });  //jquery
 
 function mySlide(){
